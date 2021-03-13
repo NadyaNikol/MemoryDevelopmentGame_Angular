@@ -34,10 +34,6 @@
             usernumberOfMoves = request.body.unumberOfMoves;
         }
 
-        // sending data back to the client
-        // response.json({"name": username, "age": userage});
-
-
         // adding data
         mongoClient.connect(function(err, client) {
 
